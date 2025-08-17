@@ -1,0 +1,24 @@
+# 📘 Clase 1 – Introducción y Fundamentos
+
+## 🎯 Objetivos de la clase
+- Presentar la estructura general del curso.
+- Aprender sobre entrada y salida de datos en programación.
+- Introducir el concepto de complejidad computacional y la notación Big-O.
+
+
+## 🧭 Introducción y estructura del curso
+
+
+## 🖥️ Entrada y salida
+
+
+## ⏱️ Complejidad computacional (Notación Big-O)
+
+La complejidad computacional mide el rendimiento de un algoritmo en función del tamaño de entrada. Se expresa comúnmente con la notación Big-O, que describe el peor caso.
+
+Ejemplos comunes:
+Algoritmo	Complejidad	Descripción
+Búsqueda lineal	O(n)	Recorre todos los elementos
+Búsqueda binaria	O(log n)	Divide el problema por mitades
+Ordenamiento rápido	O(n log n)	Algoritmo eficiente de ordenación
+Fuerza bruta	O(n²)	Compara todos los pares posibles

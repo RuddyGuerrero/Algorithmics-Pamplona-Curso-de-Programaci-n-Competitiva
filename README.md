@@ -11,7 +11,7 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
 
 - **Duración**: 25 clases  
 - **Lenguajes**: Python y C++  
-- **Plataformas**: HackerRank (principal), Codeforces, AtCoder  
+- **Plataformas**: [HackerRank](https://www.hackerrank.com/) (principal), [Codeforces](https://codeforces.com/)
 - **Herramientas**: GitHub para las soluciones, grupo de Whatsapp para dudas y comunidad.
 
 ---

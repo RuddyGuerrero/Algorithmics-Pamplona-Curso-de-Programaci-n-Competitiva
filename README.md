@@ -31,21 +31,21 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
 
 ### Módulo 1 – Matemáticas y fundamentos básicos (Clases 1–5)
 
-- Introducción y estructura del curso  
+- [Introducción y estructura del curso]([Módulo 1 – Matemáticas y fundamentos básicos (Clases 1–5)\1 - Introducción y estructura del curso.md](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/a901afafe75b6010ea85f3f0fcf8ed024a2d0714/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/1%20-%20Introducci%C3%B3n%20y%20estructura%20del%20curso.md))  
   - Entrada y salida
   - Complejidad computacional (Notación Big-O)
   - Complejidad espacial  
-- Números primos:
+- [Números primos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/a901afafe75b6010ea85f3f0fcf8ed024a2d0714/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/2%20-%20N%C3%BAmeros%20primos.md):
   - Primalidad utilizando fuerza bruta
   - Criba de Eratóstenes  
-- Máximo común divisor (MCD) y mínimo común múltiplo (MCM):
+- [Máximo común divisor (MCD) y mínimo común múltiplo (MCM)](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/a901afafe75b6010ea85f3f0fcf8ed024a2d0714/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/3%20-%20M%C3%A1ximo%20com%C3%BAn%20divisor%20(MCD)%20y%20m%C3%ADnimo%20com%C3%BAn%20m%C3%BAltiplo%20(MCM).md):
   - MCM: mínimo común múltiplo
   - MCD: máximo común divisor
   - Algoritmo de Euclides
-- Combinatoria básica:
+- [Combinatoria básica](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/a901afafe75b6010ea85f3f0fcf8ed024a2d0714/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/4%20-%20Combinatoria%20b%C3%A1sica.md):
   - Factoriales y binomios
   - nCk y aplicaciones simples
-- **Competición 1**: Problemas matemáticos sencillos
+- [**Competición 1**: Problemas matemáticos sencillos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/a901afafe75b6010ea85f3f0fcf8ed024a2d0714/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/5%20-%20Competici%C3%B3n%201%20Problemas%20matem%C3%A1ticos%20sencillos.md)
 
 ### Módulo 2 – Búsquedas y algoritmos voraces (Clases 6–10)
 

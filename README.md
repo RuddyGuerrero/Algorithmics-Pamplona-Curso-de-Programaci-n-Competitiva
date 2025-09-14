@@ -43,7 +43,7 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
   - MCD: máximo común divisor
   - Algoritmo de Euclides
 - Combinatoria básica:
-  - factoriales y binomios
+  - Factoriales y binomios
   - nCk y aplicaciones simples
 - **Competición 1**: Problemas matemáticos sencillos
 

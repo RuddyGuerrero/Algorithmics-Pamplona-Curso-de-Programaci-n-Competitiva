@@ -33,11 +33,12 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
 
 - Introducción y estructura del curso  
   - Entrada y salida
-  - Complejidad computacional (Notación Big-O)  
+  - Complejidad computacional (Notación Big-O)
+  - Complejidad espacial  
 - Números primos:
   - Primalidad utilizando fuerza bruta
   - Criba de Eratóstenes  
-- MCD y MCM:
+- Máximo común divisor (MCD) y mínimo común múltiplo (MCM):
   - MCM: mínimo común múltiplo
   - MCD: máximo común divisor
   - Algoritmo de Euclides

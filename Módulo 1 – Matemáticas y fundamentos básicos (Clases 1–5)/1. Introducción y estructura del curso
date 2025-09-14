@@ -22,3 +22,6 @@ Búsqueda lineal	O(n)	Recorre todos los elementos
 Búsqueda binaria	O(log n)	Divide el problema por mitades
 Ordenamiento rápido	O(n log n)	Algoritmo eficiente de ordenación
 Fuerza bruta	O(n²)	Compara todos los pares posibles
+
+
+## 💾 Complejidad espacial

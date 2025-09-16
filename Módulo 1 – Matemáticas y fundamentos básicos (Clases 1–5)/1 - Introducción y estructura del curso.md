@@ -170,3 +170,5 @@ numeros = []
 for linea in sys.stdin:
     print("Leí:", line.strip())
 ```
+
+### 📝 Problemas

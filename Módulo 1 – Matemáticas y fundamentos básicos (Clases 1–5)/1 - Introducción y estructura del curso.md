@@ -100,7 +100,7 @@ matriz = [[0 for _ in range(n)] for _ in range(n)] # Crear matriz
 ```
 
 $$
-\text{Memoria total (bytes)} = n \times n \times \text{tamaño\_entero}
+\text{Memoria total (bytes)} = n \times n \times \text{tamaño_entero}
 $$
 
 - `n × n` → número total de elementos  

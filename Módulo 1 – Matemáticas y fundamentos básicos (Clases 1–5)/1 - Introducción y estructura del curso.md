@@ -163,13 +163,11 @@ for _ in range(n):
 print("Números leídos:", numeros)
 ```
 
-### 5. Leer números hasta el final de la entrada (desconocido)
+### 5. Leer hasta el final de la entrada (desconocido)
 ```python
 import sys
 
 numeros = []
 for linea in sys.stdin:
-    numeros.append(int(linea))
-
-print("Números leídos hasta el final:", numeros)
+    print("Leí:", line.strip())
 ```

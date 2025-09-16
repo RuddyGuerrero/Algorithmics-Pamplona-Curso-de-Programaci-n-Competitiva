@@ -16,13 +16,12 @@ Se utiliza la **notación Big-O** para describir el **peor caso**, es decir, el 
 
 | Algoritmo / Operación           | Big-O       | Descripción breve                                | Valores de `n` aproximados |
 |--------------------------------|------------|-------------------------------------------------|---------------------------|
-| Acceso a un elemento            | O(1)       | Acceder a un índice de un arreglo o lista       | Hasta cualquier `n`       |
-| Búsqueda lineal                 | O(n)       | Recorre todos los elementos de una lista       | Hasta 10⁷                 |
-| Búsqueda binaria                | O(log n)   | Divide el problema por la mitad cada vez       | Hasta 10¹⁸ o más          |
-| Ordenamiento rápido (Quicksort) | O(n log n) | Algoritmo eficiente de ordenación              | Hasta 10⁶                 |
-| Fuerza bruta / pares            | O(n²)      | Compara todos los pares posibles               | Hasta 10³ – 10⁴           |
-| Triple bucle / matriz 3D        | O(n³)      | Recorrer todas las combinaciones de tres bucles| Hasta 500                 |
-| Exponencial simple              | O(2ⁿ)      | Algoritmos que generan todas las combinaciones de elementos | Hasta 20                  |
+| Acceso a un elemento            | O(1)       | Acceder a un índice de un arreglo o lista       | Hasta $10^8$                |
+| Búsqueda lineal                 | O(n)       | Recorre todos los elementos de una lista       | Hasta  $10^7$                   |
+| Búsqueda binaria                | O(log n)   | Divide el problema por la mitad cada vez       | Hasta  $10^{18}$   o más          |
+| Ordenamiento rápido (Quicksort) | O(n log n) | Algoritmo eficiente de ordenación              | Hasta  $10^6$                  |
+| Fuerza bruta / pares            | O(n²)      | Compara todos los pares posibles               | Hasta  $10^3$   –  $10^4$             |
+| Exponencial simple              | O(2ⁿ)      | Algoritmos que generan todas las combinaciones de elementos | Hasta 20     |
 | Fuerza bruta permutaciones      | O(n!)      | Generar todas las permutaciones de `n` elementos| Hasta 10                  |
 
 ## Cómo calcular la complejidad de un algoritmo

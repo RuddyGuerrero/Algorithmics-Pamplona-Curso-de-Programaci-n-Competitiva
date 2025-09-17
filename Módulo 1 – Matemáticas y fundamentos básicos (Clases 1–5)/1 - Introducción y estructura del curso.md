@@ -26,9 +26,25 @@ Se utiliza la **notación Big-O** para describir el **peor caso**, es decir, el 
 
 ## Cómo calcular la complejidad de un algoritmo
 
-1. **Contar operaciones**  
-   - Observa el bloque de código que más se repite o que más trabajo hace.  
-   - Ejemplo: un bucle que recorre `n` elementos → O(n).
+  Observa el bloque de código que más se repite o hace más trabajo. Ese bloque domina la complejidad.
+
+1. **Operaciones con coste O(1)**  
+  
+    Algunas **operaciones básicas tienen coste O(1)** (tiempo constante), es decir, no dependen de `n`:
+
+   - Asignaciones simples: `x = 5`
+   - Sumas, restas, multiplicaciones y divisiones simples: `x + y`
+   - Comparaciones: `x > y`
+   - Acceso a un elemento de una lista: `arr[i]`
+   - Llamadas a funciones que son O(1) por definición
+
+       **Ejemplo:**
+
+       ```python
+       x = 5        # O(1)
+       y = x + 2    # O(1)
+       print(y)     # O(1)
+       ```
 
 2. **Sumar bucles anidados**  
    - Cada bucle anidado multiplica las operaciones:  
@@ -171,4 +187,4 @@ for linea in sys.stdin:
     print("Leí:", line.strip())
 ```
 
-### 📝 Problemas
+### 📝 [Problemas: Clase 1 – Introducción y Fundamentos](https://www.hackerrank.com/clase-1-introduccion-y-fundamentos)

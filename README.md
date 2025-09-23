@@ -36,7 +36,8 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
   - Complejidad espacial
   - Entrada y salida
 - Números primos
-  - Primalidad utilizando fuerza bruta
+  - Primalidad utilizando fuerza bruta O(n)
+  - Primalidad optimizada con raíz cuadrada O(√n)
   - Criba de Eratóstenes  
 - Máximo común divisor (MCD) y mínimo común múltiplo (MCM)
   - MCM: mínimo común múltiplo

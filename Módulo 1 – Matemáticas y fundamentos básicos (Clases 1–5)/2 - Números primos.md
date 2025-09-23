@@ -1,7 +1,7 @@
 # Números primos
 
 Los números primos han fascinado a la humanidad desde hace más de **2.000 años**.  
-Ya los pitagóricos los llamaban los **“ladrillos fundamentales” 🧱 de la aritmética**,  
+Ya los pitagóricos los llamaban los *"ladrillos fundamentales" 🧱 de la aritmética**,  
 porque todos los demás números se pueden construir a partir de ellos multiplicándolos.  
 
 En el siglo III a.C., el matemático griego **Euclides** demostró algo increíble:  

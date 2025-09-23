@@ -7,7 +7,7 @@ porque todos los demás números se pueden construir a partir de ellos multiplic
 En el siglo III a.C., el matemático griego **Euclides** demostró algo increíble:  
 - **los números primos son infinitos ♾️.**  No importa cuántos encontremos, ¡siempre habrá más escondidos en la recta numérica!  
 
-Hoy en día, los números primos son la base de la **criptografía moderna** 🔐. Ggracias a ellos podemos **proteger contraseñas, compras online y mensajes privados** 📲.  
+Hoy en día, los números primos son la base de la **criptografía moderna** 🔐. Gracias a ellos podemos **proteger contraseñas, compras online y mensajes privados** 📲.  
 
 💻 En programación competitiva aprenderemos a **detectar primos rápidamente** y a usarlos en problemas que combinan lógica, rapidez y creatividad.
 
@@ -83,8 +83,6 @@ En lugar de probar **todos los números hasta `n-1`**, basta con probar hasta `�
 
 ### 💻 Código en Python
 ```python
-import math
-
 def es_primo(n: int) -> bool:
     """
     Comprueba si un número es primo usando optimización con raíz cuadrada.
@@ -164,5 +162,15 @@ def criba_eratostenes(n: int) -> list[int]:
 print(criba_eratostenes(30))
 # ➝ [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
 ```
+
+# 📊 Tabla: estimación de operaciones para distintos N
+
+| N (límite)        | Fuerza bruta ≈ N (oper.) | Optimizado ≈ √N (oper.) | Criba ≈ N · log log N (oper., estim.) |
+|-------------------:|-------------------------:|------------------------:|--------------------------------------:|
+| 100                | 100                      | 10                      | 153                                   |
+| 10 000             | 10 000                   | 100                     | 22 203                                |
+| 1 000 000          | 1 000 000                | 1 000                   | 2 625 792                             |
+| 1 000 000 000      | 1 000 000 000            | 31 622                  | 3 031 257 023                         |
+
 
 ### 📝 [Problemas: Clase 2 – Números primos]()

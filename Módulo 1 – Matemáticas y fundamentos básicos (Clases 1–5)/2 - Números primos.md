@@ -173,4 +173,4 @@ print(criba_eratostenes(30))
 | 1 000 000 000      | 1 000 000 000            | 31 622                  | 3 031 257 023                         |
 
 
-### 📝 [Problemas: Clase 2 – Números primos]()
+### 📝 [Problemas: Clase 2 – Números primos](https://www.hackerrank.com/clase-2-numeros-primos)

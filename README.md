@@ -31,7 +31,7 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
 
 ### Módulo 1 – Matemáticas y fundamentos básicos (Clases 1–5)
 
-- [Introducción y estructura del curso](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/09a125df6a6080e1f2e971595b12aaf08bd5f87b/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/1%20-%20Introducci%C3%B3n%20y%20estructura%20del%20curso.md)  
+- [Introducción y estructura del curso](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/836a1fd317075f453c2bc77be448fca2c01d8e0e/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/1%20-%20Introducci%C3%B3n%20y%20estructura%20del%20curso.md)  
   - Complejidad computacional (Notación Big-O)
   - Complejidad espacial
   - Entrada y salida

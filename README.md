@@ -31,15 +31,15 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
 
 ### Módulo 1 – Matemáticas y fundamentos básicos (Clases 1–5)
 
-- [Introducción y estructura del curso](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/836a1fd317075f453c2bc77be448fca2c01d8e0e/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/1%20-%20Introducci%C3%B3n%20y%20estructura%20del%20curso.md)  
+- [Introducción y estructura del curso](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/2ade53dc7d22d472bf70309aa8a7afade1d678f9/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/1%20-%20Introducci%C3%B3n%20y%20estructura%20del%20curso.md)  
   - Complejidad computacional (Notación Big-O)
   - Complejidad espacial
   - Entrada y salida
-- [Números primos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/514a875f0736b3bf09d1e5666f0bdcd69e99ae9f/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/2%20-%20N%C3%BAmeros%20primos.md)
+- [Números primos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/2ade53dc7d22d472bf70309aa8a7afade1d678f9/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/2%20-%20N%C3%BAmeros%20primos.md)
   - Primalidad utilizando fuerza bruta O(n)
   - Primalidad optimizada con raíz cuadrada O(√n)
   - Criba de Eratóstenes  
-- Máximo común divisor (MCD) y mínimo común múltiplo (MCM)
+- [Máximo común divisor (MCD) y mínimo común múltiplo (MCM)](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/2ade53dc7d22d472bf70309aa8a7afade1d678f9/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/3%20-%20M%C3%A1ximo%20com%C3%BAn%20divisor%20(MCD)%20y%20m%C3%ADnimo%20com%C3%BAn%20m%C3%BAltiplo%20(MCM).md)
   - MCM: mínimo común múltiplo
   - MCD: máximo común divisor
   - Algoritmo de Euclides
@@ -104,7 +104,7 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
   - Operaciones básicas y optimización  
 - Segment Tree I:
   - Concepto
-  - Construcción 
+  - Construcción
 - Segment Tree II:
   - Construcción y consultas  
 - Trie (árbol de prefijos):

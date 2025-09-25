@@ -1,11 +1,11 @@
 # 📘 Clase 1 – Introducción y Fundamentos
 
 ## 🎯 Objetivos de la clase
+
 - Conocer la **estructura del curso**.  
 - Entender la **complejidad computacional** y la notación **Big-O** (tiempo de ejecución).  
 - Entender la **complejidad espacial** (uso de memoria).
-- Estudiar **entrada y salida básica**.  
-
+- Estudiar **entrada y salida básica**.
 
 ## ⏱️ Complejidad computacional (Notación Big-O)
 
@@ -47,13 +47,15 @@ Se utiliza la **notación Big-O** para describir el **peor caso**, es decir, el 
        ```
 
 2. **Sumar bucles anidados**  
-   - Cada bucle anidado multiplica las operaciones:  
+   - Cada bucle anidado multiplica las operaciones:
+
    ```python
    for i in range(n):      # O(n)
        for j in range(n):  # O(n)
            print(i, j)     # O(1)
    # Complejidad total: O(n²)
     ```
+
 3. **Ignorar constantes y términos menores**  
    - Al calcular la complejidad, **no importa multiplicar por constantes ni sumar términos menores**.  
    - Ejemplos:  
@@ -65,7 +67,7 @@ Se utiliza la **notación Big-O** para describir el **peor caso**, es decir, el 
    - La idea es ver **cuántas veces se llama la función** y cuánto trabajo hace cada llamada.  
    - Ejemplo típico: mergesort → O(n log n), Fibonacci recursivo simple → O(2ⁿ)
 
-**Ejemplo práctico: combinación de bucles y condiciones**
+## Ejemplo práctico: combinación de bucles y condiciones
 
 ```python
 def ejemplo_complejidad(arr):
@@ -97,6 +99,7 @@ La **complejidad espacial** mide **cuánta memoria utiliza un algoritmo** en fun
 Es tan importante como la complejidad temporal, sobre todo en problemas donde la memoria es limitada.
 
 ### Factores principales que afectan la complejidad espacial
+
 - Variables simples (enteros, floats, booleanos) → O(1)  
 - Arreglos o listas de tamaño `n` → O(n)  
 - Matrices de tamaño n × m → O(n*m)  
@@ -118,11 +121,11 @@ $$
 \text{Memoria total (bytes)} = n \times n \times \text{tamañoEntero}
 $$
 
-- `n × n` → número total de elementos  
+- `n × n` → número total de elementos
 - `tamaño_entero` → memoria de cada entero (32 bytes aproximadamente)
 
-
 ### 2. Convertir a megabytes (MB)
+
 $$
 \text{Memoria (MB)} = \frac{\text{Memoria total (bytes)}}{1024 \times 1024}
 $$
@@ -131,15 +134,17 @@ $$
 - 1 MB = 1024 KB = 1024 × 1024 bytes
 
 ### 3. Ejemplo con n = 1000
+
 - Número de elementos: $1000 × 1000 = 1,000,000$  
 - Memoria en bytes: $1,000,000 × 32 = 32,000,000$ bytes  
 - Memoria en MB: $32,000,000 ÷ (1024 × 1024) ≈ 30.52$ MB
-> **Nota:** Este cálculo es teórico. En Python, los enteros son objetos y usan más memoria debido al overhead.
 
+> **Nota:** Este cálculo es teórico. En Python, los enteros son objetos y usan más memoria debido al overhead.
 
 ## 🖥️ Entrada y salida en Python
 
 ### 1. Leer un solo número
+
 ```python
 # Leer un entero
 x = int(input())
@@ -147,6 +152,7 @@ print("Número leído:", x)
 ```
 
 ### 2. Leer una lista de números en una sola línea separada por espacios
+
 ```python
 # Entrada: "1 2 3 4 5"
 arr = list(map(int, input().split()))
@@ -154,6 +160,7 @@ print("Lista leída:", arr)
 ```
 
 ### 3. Leer una matriz `n x m`
+
 ```python
 n = int(input()) # Número de filas
 m = int(input()) # Número de columnas:
@@ -169,6 +176,7 @@ for fila in matriz:
 ```
 
 ### 4. Leer `n` números cuando `n` está dado
+
 ```python
 n = int(input("Número de elementos: "))
 numeros = []
@@ -179,6 +187,7 @@ print("Números leídos:", numeros)
 ```
 
 ### 5. Leer hasta el final de la entrada (desconocido)
+
 ```python
 import sys
 

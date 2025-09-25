@@ -35,7 +35,7 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
   - Complejidad computacional (Notación Big-O)
   - Complejidad espacial
   - Entrada y salida
-- Números primos
+- [Números primos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/514a875f0736b3bf09d1e5666f0bdcd69e99ae9f/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/2%20-%20N%C3%BAmeros%20primos.md)
   - Primalidad utilizando fuerza bruta O(n)
   - Primalidad optimizada con raíz cuadrada O(√n)
   - Criba de Eratóstenes  

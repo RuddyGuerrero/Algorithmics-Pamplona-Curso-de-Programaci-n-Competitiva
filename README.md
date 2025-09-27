@@ -43,9 +43,10 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
   - MCM: mínimo común múltiplo
   - MCD: máximo común divisor
   - Algoritmo de Euclides
-- Combinatoria básica
-  - Factoriales y binomios
-  - nCk y aplicaciones simples
+- Números perfectos, abundantes y deficientes
+  - Definición de números perfectos, abundantes y deficientes
+  - Implementación por fuerza bruta O(n)
+  - Implementación optimizada con raíz cuadrada O(√n)
 - **Competición 1**: Problemas matemáticos sencillos
 
 ### Módulo 2 – Búsquedas y algoritmos voraces (Clases 6–10)

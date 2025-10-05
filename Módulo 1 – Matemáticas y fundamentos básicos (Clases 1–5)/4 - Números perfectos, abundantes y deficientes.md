@@ -140,4 +140,4 @@ for num in numeros:
 > Ideal para **programación competitiva** cuando los números son grandes.  
 > Mantiene la lógica simple, pero mucho más eficiente que recorrer hasta `n-1`.
 
-## 📝 [Problemas: Clase 4 – Números Perfectos, Abundantes y Deficientes](https://www.hackerrank.com/contests/problemas-clase-4-numeros-perfectos-abundantes-y-deficientes/challenges)
+## 📝 [Problemas: Clase 4 – Números Perfectos, Abundantes y Deficientes](https://www.hackerrank.com/problemas-clase-4)

@@ -43,7 +43,7 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
   - MCM: mínimo común múltiplo
   - MCD: máximo común divisor
   - Algoritmo de Euclides
-- Números perfectos, abundantes y deficientes
+- [Números perfectos, abundantes y deficientes](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/424211ba4536511aad3fe07e83a16b570a17643e/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/4%20-%20N%C3%BAmeros%20perfectos%2C%20abundantes%20y%20deficientes.md)
   - Definición de números perfectos, abundantes y deficientes
   - Implementación por fuerza bruta O(n)
   - Implementación optimizada con raíz cuadrada O(√n)

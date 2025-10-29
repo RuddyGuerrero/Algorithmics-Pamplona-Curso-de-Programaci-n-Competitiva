@@ -47,7 +47,7 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
   - Definición de números perfectos, abundantes y deficientes
   - Implementación por fuerza bruta O(n)
   - Implementación optimizada con raíz cuadrada O(√n)
-- **Competición 1**: Problemas matemáticos sencillos
+- [**Competición 1**: Problemas matemáticos sencillos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/13069ee426d4fedd17f1720ece86c8b96a77f0e9/M%C3%B3dulo%201%20%E2%80%93%20Matem%C3%A1ticas%20y%20fundamentos%20b%C3%A1sicos%20(Clases%201%E2%80%935)/5%20-%20Competici%C3%B3n%201%20Problemas%20matem%C3%A1ticos%20sencillos.md)
 
 ### Módulo 2 – Búsquedas y algoritmos voraces (Clases 6–10)
 

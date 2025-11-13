@@ -113,4 +113,4 @@ arr = [0, 2, 5, 5, 3]
 
 Resultado final: las actualizaciones se aplican correctamente con complejidad **O(1)** por operación de rango y **O(n)** al final.
 
-## 📝 [Problemas: Clase 9 – Algoritmos Voraces (Greedy) 1](https://www.hackerrank.com/problemas-clase-7)
+## 📝 [Problemas: Clase 9 – Algoritmos Voraces (Greedy) 1](https://www.hackerrank.com/problemas-clase-9)

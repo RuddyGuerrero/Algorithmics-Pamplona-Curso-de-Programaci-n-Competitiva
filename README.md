@@ -64,10 +64,11 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
   - Aplicaciones en intervalos  
 - [**Competición 2**: Problemas de búsqueda y voraces](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/07894c0403077779ff6556869d7f78d6c2d889b8/M%C3%B3dulo%202%20%E2%80%93%20B%C3%BAsquedas%20y%20algoritmos%20voraces%20(Clases%206%E2%80%9310)/10%20-%20Competici%C3%B3n%202%20Problemas%20de%20b%C3%BAsqueda%20binaria%20y%20voraces.md)
 
-### Módulo 3 – Programación dinámica básica (Clases 11–15)
+### Módulo 3 – Programación dinámica (DP) básica (Clases 11–15)
 
 - Introducción a la programación dinámica:
   - Conceptos clave
+  - Ecuaciones recurrentes
 - DP en una dimensión:
   - Fibonacci
   - Tabla acomulativa

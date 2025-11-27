@@ -62,9 +62,24 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
 - [Técnicas de Sumas Parciales y Aplicaciones en Intervalos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/a1443211bca8262b47c412501efbf534600a364f/M%C3%B3dulo%202%20%E2%80%93%20B%C3%BAsquedas%20y%20algoritmos%20voraces%20(Clases%206%E2%80%9310)/9%20-%20T%C3%A9cnicas%20de%20sumas%20parciales%20y%20aplicaciones%20en%20intervalos.md)
   - Sumas parciales, prefix max/min
   - Aplicaciones en intervalos  
-- **Competición 2**: Problemas de búsqueda y voraces
+- [**Competición 2**: Problemas de búsqueda y voraces](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/07894c0403077779ff6556869d7f78d6c2d889b8/M%C3%B3dulo%202%20%E2%80%93%20B%C3%BAsquedas%20y%20algoritmos%20voraces%20(Clases%206%E2%80%9310)/10%20-%20Competici%C3%B3n%202%20Problemas%20de%20b%C3%BAsqueda%20binaria%20y%20voraces.md)
 
-### Módulo 3 – Grafos básicos (Clases 11–15)
+### Módulo 3 – Programación dinámica básica (Clases 11–15)
+
+- Introducción a la programación dinámica:
+  - Conceptos clave
+- DP en una dimensión:
+  - Fibonacci
+  - Tabla acomulativa
+  - Subsecuencia creciente
+- Problemas de la mochila 0-1:
+  - Problema clásico y variantes
+  - Problema de contar cambio
+- DP en dos dimensiones:
+  - Tablas acumulativas
+- **Competición 4**: Problemas de programación dinámica
+
+### Módulo 4 – Grafos básicos (Clases 16–20)
 
 - Representación de grafos:
   - Teoría
@@ -82,21 +97,6 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
   - Contar componentes
   - Detección de ciclos
 - **Competición 3**: Grafos y recorridos básicos
-
-### Módulo 4 – Programación dinámica básica (Clases 16–20)
-
-- Introducción a la programación dinámica:
-  - Conceptos clave
-- DP en una dimensión:
-  - Fibonacci
-  - Tabla acomulativa
-  - Subsecuencia creciente
-- Problemas de la mochila 0-1:
-  - Problema clásico y variantes
-  - Problema de contar cambio
-- DP en dos dimensiones:
-  - Tablas acumulativas
-- **Competición 4**: Problemas de programación dinámica
 
 ### Módulo 5 – Estructuras de datos básicas (Clases 21–24)
 

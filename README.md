@@ -59,7 +59,7 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
   - Problemas clásicos
 - [Algoritmos voraces (greedy) 2](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/dae33eb9cabe7b4c45d0af7aabe81243ea517c48/M%C3%B3dulo%202%20%E2%80%93%20B%C3%BAsquedas%20y%20algoritmos%20voraces%20(Clases%206%E2%80%9310)/8%20-%20Algoritmos%20voraces%20(greedy)%202.md):
   - Otros ejemplos de problemas
-- Técnicas útiles:
+- [Técnicas de Sumas Parciales y Aplicaciones en Intervalos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/a1443211bca8262b47c412501efbf534600a364f/M%C3%B3dulo%202%20%E2%80%93%20B%C3%BAsquedas%20y%20algoritmos%20voraces%20(Clases%206%E2%80%9310)/9%20-%20T%C3%A9cnicas%20de%20sumas%20parciales%20y%20aplicaciones%20en%20intervalos.md)
   - Sumas parciales, prefix max/min
   - Aplicaciones en intervalos  
 - **Competición 2**: Problemas de búsqueda y voraces

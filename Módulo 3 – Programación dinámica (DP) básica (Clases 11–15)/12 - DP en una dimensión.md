@@ -127,4 +127,4 @@ for coin in coins:
 
 ---
 
-## 📝 [Problemas: Clase 12 – DP en una dimensión](https://www.hackerrank.com/problemas-clase-12)  
+# 📝 [Problemas: Clase 12 – DP en una dimensión](https://www.hackerrank.com/problemas-clase-12)  

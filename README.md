@@ -69,13 +69,13 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
 - [Introducción a la programación dinámica](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/0d1815bd04cd267de8823a69b67a3a73cd115682/M%C3%B3dulo%203%20%E2%80%93%20Programaci%C3%B3n%20din%C3%A1mica%20(DP)%20b%C3%A1sica%20(Clases%2011%E2%80%9315)/11%20-%20Introducci%C3%B3n%20a%20la%20programaci%C3%B3n%20din%C3%A1mica.md)
   - Conceptos clave
   - Ecuaciones recurrentes
-- DP en una dimensión:
-  - Fibonacci
-  - Tabla acomulativa
-  - Subsecuencia creciente
+  - Problema de Fibonacci
+- DP en una dimensión
+  - Contar cambio con repetición
+  - Contar cambio sin repetición
 - Problemas de la mochila 0-1:
   - Problema clásico y variantes
-  - Problema de contar cambio
+
 - DP en dos dimensiones:
   - Tablas acumulativas
 - **Competición 4**: Problemas de programación dinámica

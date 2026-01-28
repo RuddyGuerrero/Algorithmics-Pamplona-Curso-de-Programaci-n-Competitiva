@@ -70,12 +70,11 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
   - Conceptos clave
   - Ecuaciones recurrentes
   - Problema de Fibonacci
-- DP en una dimensión
+- [DP en una dimensión](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/9b98dae45cd2ea8d31591dcc7280bcb0d3619686/M%C3%B3dulo%203%20%E2%80%93%20Programaci%C3%B3n%20din%C3%A1mica%20(DP)%20b%C3%A1sica%20(Clases%2011%E2%80%9315)/12%20-%20DP%20en%20una%20dimensi%C3%B3n.md)
   - Contar cambio con repetición
   - Contar cambio sin repetición
 - Problemas de la mochila 0-1:
   - Problema clásico y variantes
-
 - DP en dos dimensiones:
   - Tablas acumulativas
 - **Competición 4**: Problemas de programación dinámica

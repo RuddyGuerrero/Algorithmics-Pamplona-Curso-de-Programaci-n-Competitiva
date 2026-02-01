@@ -81,19 +81,16 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
 
 ### Módulo 4 – Grafos básicos (Clases 16–20)
 
-- Representación de grafos:
+- [Representación de grafos](https://github.com/RuddyGuerrero/Algorithmics-Pamplona-Curso-de-Programaci-n-Competitiva/blob/90679d0b2019972d96688dbfe8838f4240897395/M%C3%B3dulo%204%20%E2%80%93%20Grafos%20b%C3%A1sicos%20(Clases%2016%E2%80%9320)/16%20-%20Representaci%C3%B3n%20de%20grafos.md):
   - Teoría
   - Grafos dirigidos y no dirigidos  
   - Listas de adyacencia, matriz de adyacencia
-- Recorrido en grafos: DFS (búsqueda en profundidad):
-  - Explicación del algoritmo
-  - Implementación recursiva
-  - Implementación iterativa
 - Recorrido en grafos: BFS (búsqueda en anchura):
   - Explicación del algoritmo
   - Implementación
+- Recorrido en grafos: BFS (búsqueda en anchura):
   - BFS en cuadrículas
-- Aplicaciones simples de DFS y BFS:
+- Aplicaciones simples de BFS:
   - Contar componentes
   - Detección de ciclos
 - **Competición 3**: Grafos y recorridos básicos

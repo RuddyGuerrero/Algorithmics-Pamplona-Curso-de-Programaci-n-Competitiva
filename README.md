@@ -85,14 +85,16 @@ El curso está dirigido a estudiantes con un nivel medio de programación, ya qu
   - Teoría
   - Grafos dirigidos y no dirigidos  
   - Listas de adyacencia, matriz de adyacencia
-- Recorrido en grafos: BFS (búsqueda en anchura):
+- Recorrido en grafos BFS (búsqueda en anchura):
   - Explicación del algoritmo
   - Implementación
-- Recorrido en grafos: BFS (búsqueda en anchura):
+- Recorrido en grafos BFS (búsqueda en anchura):
   - BFS en cuadrículas
-- Aplicaciones simples de BFS:
   - Contar componentes
   - Detección de ciclos
+- Algoritmo de Disktra:
+  - Explicación del algoritmo
+  - Implementación
 - **Competición 3**: Grafos y recorridos básicos
 
 ### Módulo 5 – Estructuras de datos básicas (Clases 21–24)

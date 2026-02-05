@@ -6,7 +6,7 @@ El algoritmo de **búsqueda en anchura (Breadth-First Search, BFS)** surge de lo
 
 BFS se popularizó con el desarrollo de la informática moderna, debido a que se adapta de forma natural al uso de **colas**, una estructura fundamental en programación.
 
-> BFS es uno de los algoritmos básicos que todo estudiante de ciencias de la computación debe dominar.
+> BFS es uno de los algoritmos básicos que todo estudiante de informática debe dominar.
 
 ## ✔️ Importancia del recorrido en grafos
 
@@ -18,9 +18,14 @@ La búsqueda en anchura es especialmente importante porque:
 - Se utiliza en **mapas**, **redes sociales**, **sistemas distribuidos** y **juegos**.
 - Modela exploraciones **por niveles**, comunes en problemas reales.
 
+<p align="center">
+  <img src="imagenes/dfs_bfs.png" alt="imagen" width="660">
+</p>
+
 ## 🌐 Fundamentos de la búsqueda en anchura (BFS)
 
 ### 1. ¿Qué es BFS?
+
 
 La **búsqueda en anchura (BFS)** es un algoritmo de recorrido que explora los nodos de un grafo **nivel por nivel**, partiendo desde un nodo inicial.
 
@@ -53,6 +58,53 @@ Estas estructuras evitan:
 - Visitas repetidas
 - Ciclos infinitos
 
+## 📦 Colas en programación (lo que hace posible BFS)
+
+### ¿Qué es una cola?
+Una **cola (queue)** es una estructura lineal que sigue el principio **FIFO (First In, First Out)**: el **primero que entra** es el **primero que sale**. Es análoga a una fila real: las personas son atendidas en el orden en que llegan.
+
+### Operaciones básicas
+- **Encolar (enqueue):** insertar al final de la cola
+- **Desencolar (dequeue):** extraer desde el frente de la cola
+
+Ejemplo conceptual:
+```
+[]
+Encolar 0 -> [0]
+Encolar 1 -> [0, 1]
+Encolar 2 -> [0, 1, 2]
+Desencolar -> sale 0 -> [1, 2]
+```
+
+### ¿Por qué BFS necesita una cola?
+BFS explora **por niveles**. La cola asegura que todos los nodos del **nivel actual** se procesen **antes** que los del siguiente nivel.  
+Sin esta garantía, **no habría distancias mínimas** en grafos no ponderados.
+
+## 🐍 `deque` en Python: la cola correcta para BFS
+
+### ¿Por qué no usar `list` como cola?
+Hacer `pop(0)` en una lista es **O(n)** (desplaza elementos). En grafos grandes, esto provoca **TLE** (Time Limit Exceeded).
+
+### Ventajas de `collections.deque`
+- Inserción al final (`append`) en **O(1)**
+- Extracción al inicio (`popleft`) en **O(1)**
+- Semántica exacta de una **cola FIFO**
+
+### Uso mínimo de `deque`
+```python
+from collections import deque
+
+cola = deque()
+cola.append(10)
+cola.append(20)
+cola.append(30)
+
+x = cola.popleft()  # 10
+```
+
+> En BFS: `append()` para **encolar vecinos** recién descubiertos y `popleft()` para **procesar** el siguiente nodo del nivel.
+
+
 ## 🔄 Funcionamiento del algoritmo BFS
 
 ### Pasos del algoritmo
@@ -66,9 +118,7 @@ Estas estructuras evitan:
 
 ### Ejemplo paso a paso
 
-Partiendo del nodo **0** en el siguiente grafo:
-
-- **Grafo no dirigido (lista de adyacencia):**
+Partiendo del nodo **0** en el siguiente grafo (no dirigido):
 
 ```
 0: 1, 2
@@ -94,8 +144,6 @@ Primero se recorren los nodos más cercanos (nivel 1: 1 y 2), luego los del nive
 - Es equivalente a un **recorrido por niveles** en árboles.
 - Permite detectar **componentes conexas**.
 
----
-
 ## ⏱️ Complejidad del algoritmo
 
 | Tipo | Complejidad |
@@ -108,48 +156,45 @@ Donde:
 - **V** es el número de vértices
 - **E** es el número de aristas
 
----
 
-## 🛠️ Implementación del algoritmo BFS
-
-### Usando listas de adyacencia
+## 🛠️ Implementación del algoritmo BFS (recorrido)
 
 ```python
 from collections import deque
 
-def bfs(grafo, inicio):
+def bfs(adj, inicio):
     """
-    Recorre el grafo en anchura desde el nodo 'inicio' e imprime
-    el orden de visita. El grafo es un dict[int, list[int]].
+    adj: lista de listas, adj[u] contiene los vecinos de u
+    inicio: nodo inicial (int)
+    return: lista con el orden de visita BFS
     """
-    visitados = set([inicio])
-    cola = deque([inicio])
+    n = len(adj)
+    visited = [False] * n
+    order = []
 
-    orden = []  # Para almacenar el orden de visita
+    visited[inicio] = True
+    q = deque([inicio])
 
-    while cola:
-        nodo = cola.popleft()
-        orden.append(nodo)
+    while q:
+        u = q.popleft()
+        order.append(u)
+        for v in adj[u]:
+            if not visited[v]:
+                visited[v] = True
+                q.append(v)
+    return order
 
-        for vecino in grafo.get(nodo, []):
-            if vecino not in visitados:
-                visitados.add(vecino)
-                cola.append(vecino)
-
-    return orden
-
-# Ejemplo de uso
 if __name__ == "__main__":
-    grafo = {
-        0: [1, 2],
-        1: [0, 3, 4],
-        2: [0, 5],
-        3: [1],
-        4: [1, 5],
-        5: [2, 4]
-    }
-
-    orden_visita = bfs(grafo, 0)
+    # Ejemplo (no dirigido): 0-1-3, 1-4, 0-2-5, 4-5
+    adj = [
+        [1, 2],      # 0
+        [0, 3, 4],   # 1
+        [0, 5],      # 2
+        [1],         # 3
+        [1, 5],      # 4
+        [2, 4]       # 5
+    ]
+    orden_visita = bfs(adj, 0)
     print("Orden BFS desde 0:", orden_visita)
 ```
 
@@ -159,146 +204,67 @@ if __name__ == "__main__":
 Orden BFS desde 0: [0, 1, 2, 3, 4, 5]
 ```
 
----
 
-### Cálculo de **distancias mínimas** (en número de aristas)
+## 📏 Cálculo de **distancias mínimas** (en número de aristas)
 
 ```python
 from collections import deque
 
-def bfs_distancias(grafo, inicio):
+def bfs_distancias(adj, inicio):
     """
-    Devuelve un diccionario con la distancia mínima desde 'inicio'
-    hasta cada nodo alcanzable. Distancia en número de aristas.
+    adj: lista de listas, adj[u] contiene los vecinos de u
+    inicio: nodo inicial (int)
+    return: lista dist, donde dist[v] es la distancia mínima desde 'inicio' a v,
+            o -1 si v es inalcanzable
     """
-    dist = {inicio: 0}
-    cola = deque([inicio])
+    n = len(adj)
+    dist = [-1] * n
+    dist[inicio] = 0
 
-    while cola:
-        nodo = cola.popleft()
-        for vecino in grafo.get(nodo, []):
-            if vecino not in dist:
-                dist[vecino] = dist[nodo] + 1
-                cola.append(vecino)
+    q = deque([inicio])
+
+    while q:
+        u = q.popleft()
+        for v in adj[u]:
+            if dist[v] == -1:
+                dist[v] = dist[u] + 1
+                q.append(v)
     return dist
 
-# Ejemplo de uso
 if __name__ == "__main__":
-    grafo = {
-        0: [1, 2],
-        1: [0, 3, 4],
-        2: [0, 5],
-        3: [1],
-        4: [1, 5],
-        5: [2, 4]
-    }
-
-    dist = bfs_distancias(grafo, 0)
+    # Mismo grafo del ejemplo anterior
+    adj = [
+        [1, 2],      # 0
+        [0, 3, 4],   # 1
+        [0, 5],      # 2
+        [1],         # 3
+        [1, 5],      # 4
+        [2, 4]       # 5
+    ]
+    dist = bfs_distancias(adj, 0)
     print("Distancias mínimas desde 0:", dist)
 ```
 
 **Salida esperada:**
 
 ```
-Distancias mínimas desde 0: {0: 0, 1: 1, 2: 1, 3: 2, 4: 2, 5: 2}
+Distancias mínimas desde 0: [0, 1, 1, 2, 2, 2]
 ```
 
----
-
-### Implementación equivalente en **C++** (con nodos numéricos)
-
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-vector<int> bfs(const vector<vector<int>>& grafo, int inicio) {
-    int n = (int)grafo.size();
-    vector<int> orden; orden.reserve(n);
-    vector<char> visitado(n, false);
-    queue<int> q;
-
-    visitado[inicio] = true;
-    q.push(inicio);
-
-    while (!q.empty()) {
-        int u = q.front(); q.pop();
-        orden.push_back(u);
-        for (int v : grafo[u]) {
-            if (!visitado[v]) {
-                visitado[v] = true;
-                q.push(v);
-            }
-        }
-    }
-    return orden;
-}
-
-vector<int> bfs_dist(const vector<vector<int>>& grafo, int inicio) {
-    int n = (int)grafo.size();
-    const int INF = 1e9;
-    vector<int> dist(n, INF);
-    queue<int> q;
-
-    dist[inicio] = 0;
-    q.push(inicio);
-
-    while (!q.empty()) {
-        int u = q.front(); q.pop();
-        for (int v : grafo[u]) {
-            if (dist[v] == INF) {
-                dist[v] = dist[u] + 1;
-                q.push(v);
-            }
-        }
-    }
-    return dist;
-}
-
-int main() {
-    // Grafo no dirigido con 6 nodos (0..5)
-    vector<vector<int>> grafo(6);
-    grafo[0] = {1, 2};
-    grafo[1] = {0, 3, 4};
-    grafo[2] = {0, 5};
-    grafo[3] = {1};
-    grafo[4] = {1, 5};
-    grafo[5] = {2, 4};
-
-    auto orden = bfs(grafo, 0);
-    cout << "Orden BFS desde 0: ";
-    for (int x : orden) cout << x << ' ';
-    cout << "\n";
-
-    auto dist = bfs_dist(grafo, 0);
-    cout << "Distancias mínimas desde 0: ";
-    for (int i = 0; i < (int)dist.size(); ++i) {
-        if (dist[i] < (int)1e9) cout << i << ":" << dist[i] << ' ';
-        else cout << i << ":INF ";
-    }
-    cout << "\n";
-}
-```
-
-**Salida esperada (aprox.):**
-
-```
-Orden BFS desde 0: 0 1 2 3 4 5 
-Distancias mínimas desde 0: 0:0 1:1 2:1 3:2 4:2 5:2 
-```
-
----
 
 ## ⚠️ Errores comunes
 
-- No marcar nodos como visitados (o hacerlo **después** de encolar, provocando duplicados).
-- Usar una pila en lugar de una cola.
-- Esperar rutas de menor **costo** en grafos **ponderados** (para eso usar Dijkstra).
+- No marcar nodos como visitados **al encolar** (puede producir duplicados y colas enormes).
+- Usar una **pila** en lugar de una **cola** (eso implementa DFS, no BFS).
+- Pretender calcular rutas de menor **costo** en grafos **ponderados** con BFS (para eso, usa **Dijkstra**).
 
----
 
-## 📝 Ejercicios propuestos
+## 🧪 Mini‑ejercicio guiado (opcional)
 
-1. Implementar BFS en un grafo **dirigido** con nodos numéricos y reportar el **orden** de visita.
-2. Determinar si un grafo no dirigido es **conexo** con BFS desde el nodo 0.
-3. Calcular la **distancia mínima** desde 0 a cada nodo (o `INF` si no es alcanzable).
-4. Modelar un **laberinto** como grafo grid (celdas libres = nodos) y resolverlo con BFS.
+1) Implementa una cola con `deque` y simula en papel el orden de salida para las inserciones `[0,1,2,3]`.  
+2) Dado un grafo dirigido, muestra cómo varía el orden BFS al cambiar el nodo inicial.  
+3) Modifica `bfs_distancias` para que, además de `dist`, retorne `padre` y puedas reconstruir el **camino mínimo** a cualquier destino.
+
+
+
+# 📝 [Problemas: Clase 17 - Recorrido en grafos BFS](https://www.hackerrank.com/problemas-clase-17)
